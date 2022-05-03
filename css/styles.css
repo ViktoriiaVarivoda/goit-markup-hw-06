@@ -538,6 +538,7 @@ background: #F5F4FA;
 
 .footer .container {
     display: inline-flex;
+    align-items: baseline;
 }
 
 ​.footer-soc-content {
@@ -653,15 +654,19 @@ background: #F5F4FA;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
+    margin-bottom: 20px;
     color: #FFFFFF;
 }
 
-​.footer-form {
+.footer-form {
     margin-left: auto;
+}
+
+    .footer-input{
+        display: flex;
     }
 
-.footer-input{
+.footer-email{  
 width: 358px;
 height: 50px;
 border: 1px solid rgba(255, 255, 255, 0.3);
@@ -669,46 +674,42 @@ box-sizing: border-box;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
 background-color: transparent;
+margin-right: 12px;
+padding-left: 16px;
+padding-top: 15px;
+padding-bottom: 15px;
+font-size: 16px;
+line-height: 1.25;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-input::placeholder{
-    width: 47px;
-    height: 20px;
-   
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
-    
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    
-    color: rgba(255, 255, 255, 0.6);
-}
 
 .footer-btn{
     width: 200px;
     height: 50px;
-    
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    
     color: #FFFFFF;
+    padding-left: 29px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: background-color 250ms var(--animation);
 }
 
-
+.footer-soc-icon{
+    margin-left: 10px;
+}
     
 
 /*------------portfolio.html-----------*/
